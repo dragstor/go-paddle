@@ -53,6 +53,7 @@ type SubscriptionUpdatedAlert struct {
 	CheckoutID            *string `json:"checkout_id"`
 	Email                 *string `json:"email"`
 	EventTime             *string `json:"event_time"`
+	LinkedSubscriptions   *string `json:"linked_subscriptions"`
 	MarketingConsent      *string `json:"marketing_consent"`
 	NewPrice              *string `json:"new_price"`
 	NewQuantity           *string `json:"new_quantity"`
