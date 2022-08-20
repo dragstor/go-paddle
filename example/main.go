@@ -7,11 +7,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Fakerr/go-paddle/paddle"
+	"github.com/dragstor/go-paddle/paddle"
 )
 
 func main() {
-
 	var vendorID = os.Getenv("VENDOR_ID")
 	var vendorAuthCode = os.Getenv("VENDOR_AUTH_CODE")
 	var planID = os.Getenv("PLAN_ID")
