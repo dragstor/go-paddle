@@ -286,6 +286,9 @@ type PaymentDisputeCreatedAlert struct {
 	AlertName        *string `json:"alert_name"`
 	AlertID          *string `json:"alert_id"`
 	Amount           *string `json:"amount"`
+	BalanceAmount    *string `json:"balance_amount"`
+	BalanceCurrency  *string `json:"balance_currency"`
+	BalanceFee       *string `json:"balance_fee"`
 	CheckoutID       *string `json:"checkout_id"`
 	Currency         *string `json:"currency"`
 	Email            *string `json:"email"`
@@ -303,6 +306,9 @@ type PaymentDisputeClosedAlert struct {
 	AlertName        *string `json:"alert_name"`
 	AlertID          *string `json:"alert_id"`
 	Amount           *string `json:"amount"`
+	BalanceAmount    *string `json:"balance_amount"`
+	BalanceCurrency  *string `json:"balance_currency"`
+	BalanceFee       *string `json:"balance_fee"`
 	CheckoutID       *string `json:"checkout_id"`
 	Currency         *string `json:"currency"`
 	Email            *string `json:"email"`
