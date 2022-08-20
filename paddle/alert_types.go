@@ -87,6 +87,7 @@ type SubscriptionCancelledAlert struct {
 	Currency                  *string `json:"currency"`
 	Email                     *string `json:"email"`
 	EventTime                 *string `json:"event_time"`
+	LinkedSubscriptions       *string `json:"linked_subscriptions"`
 	MarketingConsent          *string `json:"marketing_consent"`
 	Passthrough               *string `json:"passthrough"`
 	Quantity                  *string `json:"quantity"`
